@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/Alex`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/dW4yMuPp4r`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("841792552314994709").send(
+  client.channels.get("989934198724911124").send(
 ` By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -57,5 +57,5 @@ client.user.setGame(`PARTNER ANO`)
 
 
 
-client.login("");// Token Dane 
+client.login("OTkyNDczMzkxODA4Mzg5MTYw.Gfw12x.zmn65wanhkNMR8uFalWz7BYKCzGRNXNkqIhlG0");// Token Dane 
 /////coded By ANO
